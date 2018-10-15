@@ -6,6 +6,8 @@ $green: #0C403B
 
 $primary: $blue
 $primary-invert: $black
+$break-small: 500px;
+$break-large: 1000px;
 
 body
   padding: 0;
@@ -100,3 +102,15 @@ header
   margin-top: 75px
   position: relative
   z-index: 0
+
+@media screen and (max-width: $break-small) 
+  .article
+    width: 85%;
+    margin-left: 7.5%;
+  
+
+@media screen and (min-width: $break-small + 1) and (max-width: $break-large)
+  .article
+    width: 60%;
+    margin-left: 20%;
+  
