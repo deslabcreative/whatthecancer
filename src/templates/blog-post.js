@@ -21,11 +21,10 @@ export const BlogPostTemplate = ({
     <section className="wrapper">
       {helmet || ''}
       <Banner>{title}</Banner>
-      <article>
+      <div className="article">
         <p>{description}</p>
         <PostContent content={content} />
-      </article>
-
+      </div>
       
       
     </section>
