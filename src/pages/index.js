@@ -27,6 +27,7 @@ export default class IndexPage extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
+                    <img src={post.frontmatter.image} style={{ width: '100px', height: '60px' }}/>
                     <small>{post.frontmatter.date}</small>
                   </p>
                   <p>

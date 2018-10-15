@@ -1,11 +1,17 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-$kaldi-red: #FD461E
-$kaldi-red-invert: #fff
+$blue: #F7FBFD
+$black: #1d1d1d
+$white: #ffffff
+$green: #0C403B
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $blue
+$primary-invert: $black
+
+body
+  padding: 0;
+  margin: 0;
 
 .content .taglist
   list-style: none
@@ -40,3 +46,40 @@ $primary-invert: $kaldi-red-invert
   margin-top: 0 !important
 
 @import "~bulma"
+
+header
+  width: 100vw
+  background: $green
+  color: $white
+  background-attachment: fixed;
+  padding: 0
+  margin: 0
+  position: relative
+  z-index: 0
+
+  
+
+.navbar
+  z-index: 100
+  position: fixed
+  top: 0
+  background: transparent
+  color: $black
+
+  .logo
+    margin-left: 50px
+    margin-top: 35px
+
+.bannerTitle
+    font-size: 2em 
+    color: inherit
+    width: 100%
+    padding-top: 35vh
+    padding-bottom: 35vh
+    text-align: center;
+    font-weight: 600;
+
+article
+  width: 45%
+  margin-left: 27.5%
+  margin-top: 75px
