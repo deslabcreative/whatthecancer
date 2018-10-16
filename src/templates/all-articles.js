@@ -14,21 +14,15 @@ export default class Blog extends React.Component {
       <Layout>
         <Banner>All Articles</Banner>
         <section className="section">
-        
           <div className="container">
-          
             {posts
               .map(({ node: post }) => (
-                <div
-                  className="content"
-                  key={post.id}
-                >
+                <div className="content" key={post.id}>
                   <p>
                     <Link to={post.fields.slug}>
-                      {post.fields.title}
                     </Link>
-                    <img alt={post.fields.title} style={{ width: '300px', height: '60px' }}/>
-                    <small>{post.frontmatter.date}</small>
+                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '300px', height: '200px' }}></img>
+                    <small>{post.frontmatter.title}<br></br>{post.frontmatter.date}</small>
                   </p>
                   <p>
                     <Link className="button is-small" to={post.fields.slug}>
@@ -63,12 +57,14 @@ export const pageQuery = graphql`
           excerpt(pruneLength: 100)
           id
           
+          
           fields {
             slug
           }
           frontmatter {
             title
             templateKey
+            header
             date(formatString: "MMMM DD, YYYY")
           }
         }
