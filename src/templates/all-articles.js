@@ -21,7 +21,7 @@ export default class Blog extends React.Component {
                   <p>
                     <Link to={post.fields.slug}>
                     </Link>
-                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '300px', height: '200px' }}></img>
+                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '40%'}}></img>
                     <small>{post.frontmatter.title}<br></br>{post.frontmatter.date}</small>
                   </p>
                   <p>

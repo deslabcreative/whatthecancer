@@ -21,7 +21,7 @@ export const BlogPostTemplate = ({
   return (
     <section className="wrapper">
       {helmet || ''}
-      <Banner>{title}</Banner>
+      <Banner background={header}>{title}</Banner>
       <div className="article">
         <img src={header} style={{width: '100%', height: '400px'}} alt={title}/>
         <p>{description}</p>
