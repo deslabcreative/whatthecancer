@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: What Can You Do
+title: What You Can Do
 image: /img/anthony-intraversato-455600-unsplash.jpg
 heading: What Can You Do Pamphlet
 description: >-
