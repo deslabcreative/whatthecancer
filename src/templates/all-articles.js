@@ -13,15 +13,14 @@ export default class Blog extends React.Component {
     return (
       <Layout>
         <Banner>All Articles</Banner>
-        <section className="section">
-          <div className="container">
+        <div className="article">
             {posts
               .map(({ node: post }) => (
                 <div className="content" key={post.id}>
                   <p>
                     <Link to={post.fields.slug}>
                     </Link>
-                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '40%'}}></img>
+                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '100%'}}></img>
                     <small>{post.frontmatter.title}<br></br>{post.frontmatter.date}</small>
                   </p>
                   <p>
@@ -31,8 +30,7 @@ export default class Blog extends React.Component {
                   </p>
                 </div>
               ))}
-          </div>
-        </section>
+        </div>
       </Layout>
     )
   }

@@ -23,7 +23,6 @@ export const BlogPostTemplate = ({
       {helmet || ''}
       <Banner background={header}>{title}</Banner>
       <div className="article">
-        <img src={header} style={{width: '100%', height: '400px'}} alt={title}/>
         <p>{description}</p>
         <PostContent content={content} />
       </div>
