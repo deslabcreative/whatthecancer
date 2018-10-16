@@ -8,7 +8,7 @@ const Home = ({children}) => (
     <Layout>
       <section>
         <header style={{backgroundImage: 'url("/img/home.jpg")'}}>
-          <h1 className="bannerTitle">Don’t let cancer control you, let’s take control of it.</h1>
+          <h1 className="bannerTitle">Helping you stay cancer free</h1>
         </header>
       </section>
     </Layout>
