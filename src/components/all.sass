@@ -1,13 +1,14 @@
-// Config vars
-$blue: #F7FBFD
-$black: #1d1d1d
-$white: #ffffff
-$green: #0C403B
+@import article
+// @import article_preview
+@import banner
+@import breakpoints
+@import colours
+@import nav
+// @import next_bar
+// @import profile
+@import typography
 
-$primary: $blue
-$primary-invert: $black
-$break-small: 500px;
-$break-large: 1000px;
+
 
 body
   padding: 0;
@@ -47,70 +48,14 @@ body
 
 @import "~bulma"
 
-header
-  width: 100vw
-  background: $green
-  color: $white
-  padding: 0, 0, 0, 0
-  margin: 0, 0, 0, 0
-  position: relative
-  display: inline-block
-  z-index: 0
-  background-position: center
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 
 
   
 
-.navbar
-  z-index: 100
-  position: fixed
-  top: 0
-  background: transparent
-  color: $black
 
-  .logo
-    margin-left: 35px
-    margin-top: 35px
 
-.bannerTitle
-    font-size: 2em 
-    color: inherit
-    width: 55%
-    margin-left: 22.5vw
-    padding-top: 35vh
-    padding-bottom: 35vh
-    text-align: center;
-    font-weight: bold;
 
-.half-bannerTitle
-    font-size: 2em 
-    color: inherit
-    width: 55%
-    margin-left: 22.5vw
-    padding-top: 15vh
-    padding-bottom: 15vh
-    text-align: center;
-    font-weight: bold;
 
-.article
-  width: 45%
-  margin-left: 27.5%
-  margin-top: 75px
-  position: relative
-  z-index: 0
 
-@media screen and (max-width: $break-small) 
-  .article
-    width: 85%;
-    margin-left: 7.5%;
-  
-
-@media screen and (min-width: $break-small + 1) and (max-width: $break-large)
-  .article
-    width: 60%;
-    margin-left: 20%;
   

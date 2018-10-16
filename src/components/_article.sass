@@ -1,0 +1,18 @@
+@import breakpoints
+.article
+  width: 45%
+  margin-left: 27.5%
+  margin-top: 75px
+  position: relative
+  z-index: 0
+
+@media screen and (max-width: $break-small) 
+  .article
+    width: 85%;
+    margin-left: 7.5%;
+  
+
+@media screen and (min-width: $break-small + 1) and (max-width: $break-large)
+  .article
+    width: 60%;
+    margin-left: 20%;
