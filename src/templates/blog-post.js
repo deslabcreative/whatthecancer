@@ -11,6 +11,7 @@ export const BlogPostTemplate = ({
   content,
   contentComponent,
   description,
+  header,
   tags,
   title,
   helmet,
@@ -22,6 +23,7 @@ export const BlogPostTemplate = ({
       {helmet || ''}
       <Banner>{title}</Banner>
       <div className="article">
+        <img src={header} style={{width: '100%', height: '400px'}} alt={title}/>
         <p>{description}</p>
         <PostContent content={content} />
       </div>
@@ -35,6 +37,7 @@ BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  header: PropTypes.file,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
 }
@@ -51,6 +54,7 @@ const BlogPost = ({ data }) => {
         helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        header={post.frontmatter.header}
       />
     </Layout>
   )
@@ -74,6 +78,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+        banner
       }
     }
   }
