@@ -2,7 +2,7 @@
 templateKey: product-page
 title: What You Can Do
 image: /img/anthony-intraversato-455600-unsplash.jpg
-heading: What Can You Do Pamphlet
+heading: wycd
 description: >-
   Download the free resource written by Dr Lisa Dawson that has equipped many of
   her patients to take control of their cancer journey / preventing them from
