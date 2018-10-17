@@ -7,7 +7,7 @@ import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const ResourceTemplate = ({
+export const ResourcePostTemplate = ({
   content,
   contentComponent,
   description,
@@ -16,7 +16,7 @@ export const ResourceTemplate = ({
   title,
   helmet,
 }) => {
-  const ResourceContent = contentComponent || Content
+  const PostContent = contentComponent || Content
 
   return (
     <section className="wrapper">
@@ -24,7 +24,7 @@ export const ResourceTemplate = ({
       <Banner background={header}>{title}</Banner>
       <div className="article">
         <p>{description}</p>
-        <ResourceContent content={content} />
+        <PostContent content={content} />
       </div>
       
       
@@ -32,7 +32,7 @@ export const ResourceTemplate = ({
   )
 }
 
-ResourceTemplate.propTypes = {
+ResourcePostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -41,16 +41,16 @@ ResourceTemplate.propTypes = {
   helmet: PropTypes.instanceOf(Helmet),
 }
 
-const Resource = ({ data }) => {
+const ResourcePost = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <ResourceTemplate
+      <ResourcePostTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+        helmet={<Helmet title={`${post.frontmatter.title} | Resource`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         header={post.frontmatter.header}
@@ -59,16 +59,16 @@ const Resource = ({ data }) => {
   )
 }
 
-Resource.propTypes = {
+ResourcePost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default Resource
+export default ResourcePost
 
 export const pageQuery = graphql`
-  query ResourceByID($id: String!) {
+  query ResourcePostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
