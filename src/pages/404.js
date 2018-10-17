@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import Banner from './components/banner'
 
 const NotFoundPage = () => (
   <Layout>
-    <div>
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </div>
+    <Banner>Page Not Found</Banner>
+    You may have come across a page that does not exist or is broken...  If you think the page should be here, please get in touch.
   </Layout>
 )
 
