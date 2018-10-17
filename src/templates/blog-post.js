@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
+// import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Banner from './components/banner'
 import { graphql, Link } from 'gatsby'
@@ -12,7 +12,7 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   header,
-  tags,
+  // tags,
   title,
   helmet,
 }) => {
