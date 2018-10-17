@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Banner from './components/banner'
+import Banner from '../templates/components/banner'
 
 const NotFoundPage = () => (
   <Layout>
