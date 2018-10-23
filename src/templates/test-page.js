@@ -6,7 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 
-export const ProductPageTemplate = ({
+export const TestPageTemplate = ({
   image,
   title,
   heading,
@@ -107,7 +107,7 @@ export const ProductPageTemplate = ({
   </section>
 )
 
-ProductPageTemplate.propTypes = {
+TestPageTemplate.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -131,12 +131,12 @@ ProductPageTemplate.propTypes = {
   }),
 }
 
-const ProductPage = ({ data }) => {
+const TestPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <TestPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -151,7 +151,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+TestPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -159,10 +159,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default TestPage
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const testPageQuery = graphql`
+  query TestPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
