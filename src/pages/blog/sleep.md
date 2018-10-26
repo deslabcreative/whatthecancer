@@ -13,7 +13,7 @@ tags:
 ---
 # A Brief Introduction To Sleep
 
-I have known Lisa for many years, since we sat our physician exams together way back when were were training in Waikato, as most of you will know going through mutual trauma can often forge strong friendships, so when I saw that Lisa was starting this excellent blog and podcast with lifestyle advice to assist people with cancer I got in touch.\\
+I have known Lisa for many years, since we sat our physician exams together way back when were were training in Waikato, as most of you will know going through mutual trauma can often forge strong friendships, so when I saw that Lisa was starting this excellent blog and podcast with lifestyle advice to assist people with cancer I got in touch. \\
 Everybody sleeps. Because of this once you have a sleep problem inevitably every man and his dog will chip in with an opinion. There is a lot of very good advice out there but unfortunately also a lot of garbage, often aimed at selling you things. One of my aims in life is to be one of the useful people..... but I do have some very nice snake oil and for the right price .....
 
 Sleep is a universal phenomenon amongst animals. We all sleep but how and why still remains to be completely understood, There is an enormous amount known about sleep but the further we delve into the science the more interesting and surprising questions emerge. This sense of exploration when dealing with something seemingly so mundane and common is a big reason why so many sleep researchers enjoy their job. It is certainly why I get engrossed!
