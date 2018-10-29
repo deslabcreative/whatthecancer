@@ -3,7 +3,8 @@ templateKey: home-page
 title: Helping You Stay Cancer Free
 home_image: /img/home.jpg
 home_content: >-
-  Hi I’m Lisa Dawson, I’m a medical Oncologist and lifestyle medicine advocate.
+  ## Hi I’m Lisa Dawson, I’m a medical Oncologist and lifestyle medicine
+  advocate.
 
 
   If you have been diagnosed with cancer, had cancer or are frightened of
@@ -13,7 +14,6 @@ home_content: >-
   no idea to trust. This drives me crazy as a cancer doctor, a mum and a patient
   advocate. Just when you need someone to guide you on this journey called
   cancer you feel more confused than ever.
-
 
 
   I’ve been a cancer doctor for 10 years. Prior to that I was a family doctor
