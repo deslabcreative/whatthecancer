@@ -2,13 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from '../components/Layout'
 import Banner from './components/banner'
+import Email from './components/email-form'
 import { graphql, Link } from 'gatsby'
+import Content, { HTMLContent } from '../components/Content'
 
 export const HomePageTemplate = ({
   home_image,
   title,
   home_content,
-}) => (
+}) => {
+  const PostContent = home_content || Content
+
+  return(
   <div>
     <Layout>
       <section>
@@ -17,7 +22,7 @@ export const HomePageTemplate = ({
     </Layout>
     <section className="article greenLink">
       <p>
-        {home_content}
+      <PostContent content={home_content} />
       </p>
       <br></br>
       <br></br>
@@ -29,8 +34,10 @@ export const HomePageTemplate = ({
         </header>
       </section>
     </Link>
+    <Email />
   </div>
-)
+  )
+}
 
 HomePageTemplate.propTypes = {
   home_image: PropTypes.string,

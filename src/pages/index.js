@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Email from '../templates/components/email'
+import Footer from '../templates/components/footer'
 
 const Home = ({children}) => (
   <div>
@@ -59,6 +61,8 @@ const Home = ({children}) => (
         </header>
       </section>
     </Link>
+    <Email />
+    <Footer />
 
   </div>
   

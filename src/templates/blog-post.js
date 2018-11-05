@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 import Banner from './components/banner'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
+import Email from './components/email-form'
+import Split from './components/split'
+import Footer from './components/footer'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -26,7 +29,8 @@ export const BlogPostTemplate = ({
         <p>{description}</p>
         <PostContent content={content} />
       </div>
-      
+      <Split background={header} recommendedTitle={title} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
+      <Footer />
       
     </section>
   )
