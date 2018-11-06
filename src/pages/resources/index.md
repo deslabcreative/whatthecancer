@@ -1,8 +1,8 @@
 ---
 templateKey: 'resource-page'
 path: /resources
-title: Our Coffee
-image: /img/jumbotron.jpg
+title: Our Resources
+image: /img/resource-splash.jpg
 heading: What we offer
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -69,6 +69,13 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
+
+resource:
+  - resourceName: Elisabeth Kaurismäki
+    resourceDescription: >-
+      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+      the same thing I’ve been drinking every morning.
+
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Monthly subscriptions
