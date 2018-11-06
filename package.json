@@ -5,7 +5,7 @@
   "author": "Jayden Szekely",
   "dependencies": {
     "bulma": "^0.7.0",
-    "gatsby": "^2.0.0-rc.28",
+    "gatsby": "^2.0.40",
     "gatsby-plugin-netlify": "next",
     "gatsby-plugin-netlify-cms": "next",
     "gatsby-plugin-react-helmet": "^3.0.0-rc.1",

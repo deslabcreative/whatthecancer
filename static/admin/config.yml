@@ -55,4 +55,23 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Header Image, name: home_image, widget: image}
           - {label: Body Content, name: home_content, widget: markdown}
+      
+  - name: "authors"
+    label: "Authors"
+    folder: "src/pages/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "author-post"}
+      - {label: "Name", name: "authorName", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Quick blurb about yourself (1 sentence max)", name: "authorDescription", widget: "text"}
+      - {label: "Header Image", name: "coverImage", widget: "file"}
+      - {label: "Square Profile Image", name: "profileImage", widget: "file"}
+      - {label: "Main Social Profile URL", name: "socialLink", widget: "string"}
+      - {label: "Tell Us About Yourself", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Recommended Reading", name: "authorRecommended", widget: "string"}
+      - {label: "Recommended Reading Image", name: "authorRecommendedImage", widget: "file"}
+
   
