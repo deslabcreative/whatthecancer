@@ -15,9 +15,12 @@ export default class Blog extends React.Component {
       <Layout>
         <Banner>All Articles</Banner>
         <div className="article">
+        <Link to="/tags/"><h1>Search by "Tag"</h1></Link>
+                  <hr />
             {posts
               .map(({ node: post }) => (
                 <div className="content" key={post.id}>
+                  
                   <p>
                     <Link to={post.fields.slug}>
                     </Link>

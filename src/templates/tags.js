@@ -2,17 +2,17 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Footer from './components/footer'
+import Banner from './components/banner'
 
 class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <li key={post.node.fields.slug}>
-        <Link to={post.node.fields.slug}>
-          <h2 className="is-size-2">{post.node.frontmatter.title}</h2>
+      <div className="content" key={post.node.fields.slug}>
+        <Link className="greenLink" to={post.node.fields.slug}>
+          <h1>{post.node.frontmatter.title}</h1>
         </Link>
-      </li>
+      </div>
     ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
@@ -23,23 +23,21 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section">
+  
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
-              <div
-                className="column is-10 is-offset-1"
-                style={{ marginBottom: '6rem' }}
-              >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
-                <ul className="taglist">{postLinks}</ul>
-                <p>
-                  <Link to="/tags/">Browse all tags</Link>
-                </p>
+          <Banner>{tagHeader}</Banner>
+          <div className="article">
+  
+              <div className="content">
+                <Link to="/tags/"><h1>View all tags</h1></Link>
+                <hr />
+                {postLinks}
               </div>
-            </div>
           </div>
-        </section>
+
+
+
+      
       </Layout>
     )
   }
@@ -56,7 +54,7 @@ export const tagPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___title], order: ASC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
