@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Banner from './components/banner'
 import Layout from '../components/Layout'
+import Footer from './components/footer'
 
 export default class Blog extends React.Component {
   render() {

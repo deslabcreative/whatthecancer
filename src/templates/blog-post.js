@@ -17,22 +17,18 @@ export const BlogPostTemplate = ({
   header,
   // tags,
   title,
-  helmet,
 }) => {
   const PostContent = contentComponent || Content
 
   return (
-    <section className="wrapper">
-      {helmet || ''}
+    <div>
       <Banner background={header}>{title}</Banner>
       <div className="article">
         <p>{description}</p>
         <PostContent content={content} />
       </div>
       <Split background={header} recommendedTitle={title} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
-      <Footer />
-      
-    </section>
+    </div>
   )
 }
 

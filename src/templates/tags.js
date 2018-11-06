@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Footer from './components/footer'
 
 class TagRoute extends React.Component {
   render() {

@@ -20,7 +20,7 @@ h2
   color: inherit
 
 h3
-  font-size: 1.25em
+  font-size: 2em
   font-weight: bold
   color: inherit
   line-height: 1.2em
@@ -181,8 +181,8 @@ header
 // nav
 
 .navbar
-  z-index: 100
-  position: fixed
+  z-index: 1100
+  position: absolute
   top: 0
   background: transparent
   color: $black
@@ -190,6 +190,7 @@ header
   .logo
     margin-left: 35px
     margin-top: 35px
+    z-index: 1100
 
 
 
@@ -219,6 +220,7 @@ header
   p
     margin-left: 10%
     margin-right: 10%
+
 
 
     
@@ -286,3 +288,80 @@ footer
     float: right
     bottom: 0
     
+
+
+// Side Bar
+
+
+/* Individual item */
+.bm-item 
+  display: inline-block
+
+  /* Our sidebar item styling */
+  text-decoration: none
+  margin-bottom: 10px
+  color: #d1d1d1
+  transition: color 0.5s
+
+
+/* Change color on hover */
+.bm-item:hover 
+  color: white
+
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button 
+  position: fixed
+  width: 36px
+  height: 30px
+  right: 36px
+  top: 36px
+  z-index: 1100
+  
+
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars 
+  background: #fff
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button 
+  position: absolute
+  z-index: 1100
+
+
+/* Color/shape of close button cross */
+.bm-cross 
+  background: #fff
+  display: none
+
+
+/* General sidebar styles */
+.bm-menu 
+  background: $green
+  z-index: 500
+  margin: 0
+  top: 0px
+  right: 100%
+  display: block
+  height: calc(70vh + 2em)
+
+  a 
+    display: inline-flex
+    
+  a:hover 
+    color: $blue
+
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape 
+  fill: #373a47
+
+
+/* Wrapper for item list */
+.bm-item-list 
+  color: #b8b7ad
+

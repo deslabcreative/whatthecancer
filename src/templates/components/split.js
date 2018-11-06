@@ -8,7 +8,7 @@ const Split = ({children, background, recommendedTitle, authorName, authorBio}) 
                 <span>{recommendedTitle}</span>
             </p>
         </div>
-        <div className="right">
+        <div className="right green-bg">
             <p>
                 <h3>{authorName}</h3>
                 <span>{authorBio}</span>
