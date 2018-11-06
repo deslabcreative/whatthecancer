@@ -17,7 +17,7 @@ iframe
   align-content: center
   padding-top: 2em
   padding-bottom: 2em
-  
+
 h1
   font-size: 2em
   font-weight: bold
@@ -209,6 +209,7 @@ header
   width: 100%
   text-align: left
 
+  
   .left
     float: left
     width: 50%
@@ -219,6 +220,18 @@ header
     background-size: cover
     color: white
     font-weight: 600
+
+  @media screen and (max-width: $break-small) 
+    .left
+      float: left
+      width: 100%
+      padding: 0
+      padding-top: 10vh
+      padding-bottom: 10vh
+      display: inline-block
+      background-size: cover
+      color: white
+      font-weight: 600
 
   .left-fifty
     float: left
@@ -240,6 +253,15 @@ header
     padding-top: 10vh
     padding-bottom: 10vh
     display: inline-block
+
+  @media screen and (max-width: $break-small) 
+    .right
+      float: right
+      width: 100%
+      padding: 0
+      padding-top: 10vh
+      padding-bottom: 10vh
+      display: inline-block
 
   .full
     float: left
@@ -322,7 +344,7 @@ footer
 
 /* Position and sizing of burger button */
 .bm-burger-button 
-  position: fixed
+  position: absolute
   width: 36px
   height: 30px
   right: 36px
@@ -362,7 +384,7 @@ footer
     display: inline-flex
 
   a:hover 
-    color: $blue
+    color: $white
 
 
 /* Morph shape necessary with bubble or elastic */
