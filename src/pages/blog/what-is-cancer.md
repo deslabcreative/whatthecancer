@@ -8,6 +8,8 @@ youtubeLink: 'https://www.youtube.com/watch?v=qOgGDAUwHSM'
 tags:
   - cancer
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJP7kFA3jPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Cancer is a disease which has the common condition of a cell that has lost its ability to control its own growth. It divides in an uncontrolled way forming a mass of cells called a tumour and can invade blood vessels and lymphatics to spread to other parts of the body. If the conditions are right the cells can form new tumour (called metastases or secondaries) in those body parts. What type of cancer someone has is defined by the cell type that the cancer started in. As the cells from that tissue grow and spread all the secondary tumours are like the original tissue the cancer started in. For example if a cell in the breast develops a tumour and spreads to the liver, the tumours that grow in the liver resemble breast tissue.
 
 Cancers vary enormously depending on the tissue type the cancerous cells started in, how aggressively those cells grow and easily they can spread and start growing in other tissues. This is why no two cancers are the same.
