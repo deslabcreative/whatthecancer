@@ -29,7 +29,7 @@ export const ResourcePageTemplate = ({
               <p>{description}</p>
               
               <Testimonials testimonials={testimonials} />
-            
+
           
      
     
