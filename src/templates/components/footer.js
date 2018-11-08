@@ -12,6 +12,7 @@ const Footer = ({children, background, recommendedTitle, authorName, authorBio})
                 <a href="https://www.whatthecancer.com/contact" title="Ask a Question - What The Cancer">Ask a question</a><br></br>
                 <a href="https://www.whatthecancer.com/resources" title="Resources - What The Cancer">Our Resources</a><br></br>
                 <a href="https://www.whatthecancer.com/listen" title="Listen to our Podcast - What The Cancer">Listen</a><br></br>
+                <a href="https://www.whatthecancer.com/jargon" title="Understand what the Medical Jargon surrounding your cancer journey means in plain English - What The Cancer">Jargon Dictionary</a><br></br>
                 <br></br>
                 <br></br>
                 <span className="left-fifty">© What The Cancer, 2018</span>
