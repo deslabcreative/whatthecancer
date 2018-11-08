@@ -11,55 +11,20 @@ import Pricing from '../components/Pricing'
 export const ResourcePageTemplate = ({
   image,
   title,
-  heading,
   description,
-  intro,
-  main,
-  resource,
-  testimonials,
-  fullImage,
-  pricing,
 }) => (
   <Layout>
     <Banner background={image}>{title}</Banner>
     <div className="article">
-  
-    
-              <h2>{heading}</h2>
               <p>{description}</p>
-              
-              <Testimonials testimonials={testimonials} />
-
-          
-     
-    
     </div>
   </Layout>
 )
 
 ResourcePageTemplate.propTypes = {
-  image: PropTypes.string,
   title: PropTypes.string,
-  heading: PropTypes.string,
+  image: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.object,
-    image2: PropTypes.object,
-    image3: PropTypes.object,
-  }),
-  
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.string,
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
 }
 
 const ResourcePage = ({ data }) => {
@@ -70,14 +35,8 @@ const ResourcePage = ({ data }) => {
       <ResourcePageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        main={frontmatter.main}
-        testimonials={frontmatter.testimonials}
-        
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </div>
   )
@@ -96,53 +55,14 @@ export default ResourcePage
 export const resourcePageQuery = graphql`
   query ResourcePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      id
+      html
       frontmatter {
         title
         image
-        heading
         description
-        intro {
-          blurbs {
-            image
-            text
-          }
-          heading
-          description
-        }
-        main {
-          heading
-          description
-          image1 {
-            alt
-            image
-          }
-          image2 {
-            alt
-            image
-          }
-          image3 {
-            alt
-            image
-          }
-        }
-        
-        
-        testimonials {
-          author
-          quote
-        }
-        full_image
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
-        }
       }
     }
   }
 `
+
