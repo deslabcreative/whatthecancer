@@ -5,12 +5,12 @@ import Layout from '../components/Layout'
 import Banner from './components/banner'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, full_image }) => {
   const PageContent = contentComponent || Content
 
   return (
     <Layout>
-      <Banner>{title}</Banner>
+      <Banner background={full_image}>{title}</Banner>
       <div className="article">
         <PageContent className="content" content={content} />
       </div>   
@@ -22,6 +22,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
+  full_image: PropTypes.file,
   contentComponent: PropTypes.func,
 }
 
@@ -32,6 +33,7 @@ const AboutPage = ({ data }) => {
     <AboutPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
+      full_image={post.frontmatter.file}
       content={post.html}
     />
   )
@@ -45,10 +47,11 @@ export default AboutPage
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(id: { eq: $id }) { 
       html
       frontmatter {
         title
+        full_image
       }
     }
   }
