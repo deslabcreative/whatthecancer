@@ -38,9 +38,9 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resource-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Header Image, name: header_image, widget: image}
+          - {label: Header Image, name: image, widget: image}
           - {label: Description, name: description, widget: string}
-          - {label: Resource, name: resource, widget: list, fields: [{label: Resource Name, name: resourceName, widget: string}, {label: Resource Description, name: resourceDescription, widget: string}, {label: Resource Price, name: resourcePrice, widget: string}, {label: Resource Download or Purchase URL, name: resourceURL, widget: string}]}
+          - {label: Resource, name: resource, widget: list, fields: [{label: Resource Name, name: resourceName, widget: string}, {label: Resource Description, name: resourceDescription, widget: string}, {label: Resource Image, name: resourceImage, widget: image}, {label: Resource Price, name: resourcePrice, widget: string}, {label: Resource Download or Purchase URL, name: resourceURL, widget: string}]}
           - {label: Full Image, name: fullImage, widget: image}
       - file: "src/pages/home.md"
         label: "Home Page"

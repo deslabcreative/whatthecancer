@@ -55,11 +55,9 @@ export default ResourcePage
 export const resourcePageQuery = graphql`
   query ResourcePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      id
-      html
       frontmatter {
         title
-        image
+        heading
         description
       }
     }
