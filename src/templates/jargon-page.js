@@ -5,12 +5,12 @@ import Layout from '../components/Layout'
 import Banner from './components/banner'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, full_image }) => {
+export const JargonPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <Layout>
-      <Banner background={full_image}>{title}</Banner>
+      <Banner>{title}</Banner>
       <div className="article">
         <PageContent className="content" content={content} />
       </div>   
@@ -19,40 +19,37 @@ export const AboutPageTemplate = ({ title, content, contentComponent, full_image
   )
 }
 
-AboutPageTemplate.propTypes = {
+jargonPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  full_image: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const JargonPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <AboutPageTemplate
+    <JargonPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      full_image={post.frontmatter.string}
       content={post.html}
     />
   )
 }
 
-AboutPage.propTypes = {
+JargonPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default JargonPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const jargonPageQuery = graphql`
+  query JargonPage($id: String!) {
     markdownRemark(id: { eq: $id }) { 
       id
       html
       frontmatter {
         title
-        full_image
       }
     }
   }
