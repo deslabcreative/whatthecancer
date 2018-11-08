@@ -32,6 +32,16 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Wide Image", name: "full_image", widget: file}
+
+      - file: "src/pages/jargon/index.md"
+        label: "Jargon"
+        name: "jargon"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Wide Image", name: "full_image", widget: file}
+
       - file: "src/pages/resources/index.md"
         label: "Resources Page"
         name: "resources"
@@ -43,6 +53,7 @@ collections:
           - {label: Description, name: "description", widget: string}
           - {label: Resource, name: "resource", widget: list, fields: [{label: Resource Name, name: resourceName, widget: string}, {label: Resource Description, name: resourceDescription, widget: string}, {label: Resource Image, name: resourceImage, widget: image}, {label: Resource Price, name: resourcePrice, widget: string}, {label: Resource Download or Purchase URL, name: resourceURL, widget: string}]}
           - {label: Full Image, name: "fullImage", widget: file}
+          
       - file: "src/pages/home.md"
         label: "Home Page"
         name: "home"
@@ -61,7 +72,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: "Name", name: "title", widget: string}
           - {label: "Wide Image", name: "full_image", widget: file}
-          - {label: "Body Content", name: "content", widget: markdown}
+          - {label: "Body", name: "body", widget: "markdown"}
       
   
 
