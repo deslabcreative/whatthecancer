@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Banner from './components/banner'
+import Split from './components/split'
 import Content, { HTMLContent } from '../components/Content'
 
 export const JargonPageTemplate = ({ title, content, contentComponent }) => {
@@ -14,6 +15,7 @@ export const JargonPageTemplate = ({ title, content, contentComponent }) => {
       <div className="article">
         <PageContent className="content" content={content} />
       </div>   
+      <Split background="img/home.jpg" recommendedTitle={title} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
     </Layout>
               
   )
