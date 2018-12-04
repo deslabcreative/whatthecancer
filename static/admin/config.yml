@@ -18,6 +18,9 @@ collections:
       - {label: "Give a brief overview of what you will cover", name: "description", widget: "text"}
       - {label: "Header Image", name: "header", widget: "file"}
       - {label: "Youtube URL", name: "youtubeLink", widget: "string"}
+      - {label: "Recommended Article Title", name: "recommendedName", widget: "string"}
+      - {label: "Recommended Article Image", name: "recommendedImage", widget: "file"}
+      - {label: "Recommended Article URL (Link)", name: "recommendedLink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 

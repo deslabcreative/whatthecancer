@@ -17,6 +17,9 @@ export const BlogPostTemplate = ({
   header,
   // tags,
   title,
+  recommendedName,
+  recommendedImage,
+  recommendedLink,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -27,7 +30,7 @@ export const BlogPostTemplate = ({
         <p>{description}</p>
         <PostContent content={content} />
       </div>
-      <Split background={header} recommendedTitle={title} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
+      <Split background={recommendedImage} recommendedTitle={recommendedName} link={recommendedLink} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
     </div>
   )
 }
@@ -39,6 +42,9 @@ BlogPostTemplate.propTypes = {
   header: PropTypes.file,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
+  recommendedName: PropTypes.string,
+  recommendedImage: PropTypes.file,
+  recommendedLink: PropTypes.string,
 }
 
 const BlogPost = ({ data }) => {
@@ -54,6 +60,9 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         header={post.frontmatter.header}
+        recommendedName={post.frontmatter.recommendedName}
+        recommendedImage={post.frontmatter.recommendedImage}
+        recommendedLink={post.frontmatter.recommendedLink}
       />
     </Layout>
   )
@@ -78,6 +87,9 @@ export const pageQuery = graphql`
         description
         tags
         header
+        recommendedName
+        recommendedImage
+        recommendedLink
       }
     }
   }
