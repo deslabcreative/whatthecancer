@@ -4,7 +4,6 @@ title: What is Cancer?
 date: 2018-10-15T09:10:46.925Z
 description: 'In this episode, Lisa will give a brief overview of What cancer is.'
 header: /img/anthony-intraversato-455600-unsplash.jpg
-youtubeLink: 'https://www.youtube.com/watch?v=qOgGDAUwHSM'
 tags:
   - cancer
 recommendedName: What Is Cancer?
