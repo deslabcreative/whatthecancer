@@ -10,6 +10,9 @@ youtubeLink: Dont Worry about This right now
 tags:
   - sleep
   - andrew davies
+recommendedName: What Is Cancer?
+recommendedLink: https://www.whatthecancer.com/what-is-cancer
+recommendedImage: /img/sleep.jpg
 ---
 # A Brief Introduction To Sleep
 

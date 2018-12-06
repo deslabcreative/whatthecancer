@@ -15,7 +15,6 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   header,
-  // tags,
   title,
   recommendedName,
   recommendedImage,

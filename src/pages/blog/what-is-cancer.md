@@ -7,6 +7,9 @@ header: /img/anthony-intraversato-455600-unsplash.jpg
 youtubeLink: 'https://www.youtube.com/watch?v=qOgGDAUwHSM'
 tags:
   - cancer
+recommendedName: What Is Cancer?
+recommendedLink: https://www.whatthecancer.com/what-is-cancer
+recommendedImage: /img/sleep.jpg
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EJP7kFA3jPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
