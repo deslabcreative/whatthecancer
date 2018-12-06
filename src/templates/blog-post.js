@@ -26,7 +26,7 @@ export const BlogPostTemplate = ({
     <div>
       <Banner background={header}>{title}</Banner>
       <div className="article">
-        <p>{description}</p>
+        <p>{description}</p><br /><br />
         <PostContent content={content} />
       </div>
       <Split background={recommendedImage} recommendedTitle={recommendedName} link={recommendedLink} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
