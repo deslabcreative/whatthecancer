@@ -54,7 +54,7 @@ export const tagPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { order: ASC, fields: [frontmatter___title], order: ASC }
+      sort: { fields: [frontmatter___title], order: ASC }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount
