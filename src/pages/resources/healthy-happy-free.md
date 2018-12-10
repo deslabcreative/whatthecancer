@@ -1,7 +1,7 @@
 ---
 templateKey: resource
 date: 2018-12-06T04:00:25.468Z
-image: /img/sleep.jpg
+image: /img/hhf-book.png
 description: >-
   This resource is a short e-book originally written and published in 2005 by Dr
   Lisa Dawson discussing how you can live a Healthy, Happy and Free life
