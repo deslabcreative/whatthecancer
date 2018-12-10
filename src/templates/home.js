@@ -10,7 +10,7 @@ export const HomePageTemplate = ({
   title,
   content, 
   contentComponent,
-  image,
+  fullImage,
   announcementBlurb,
   announcementImage,
   announcementLink 
@@ -19,7 +19,7 @@ export const HomePageTemplate = ({
 
   return (
     <Layout>
-      <Banner background={image}>{title}</Banner>
+      <Banner background={fullImage}>{title}</Banner>
       <section className="article greenLink">
         <PageContent className="content" content={content} />
         <br></br>
@@ -41,7 +41,7 @@ export const HomePageTemplate = ({
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  image: PropTypes.file,
+  fullImage: PropTypes.file,
   announcementBlurb: PropTypes.string,
   announcementLink: PropTypes.string,
   announcementImage: PropTypes.file,
@@ -56,7 +56,7 @@ const HomePage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
-      image={post.frontmatter.image}
+      fullImage={post.frontmatter.fullImage}
       announcementBlurb={post.frontmatter.announcementBlurb}
       announcementLink={post.frontmatter.announcementLink}
       announcementImage={post.frontmatter.announcementImage}
