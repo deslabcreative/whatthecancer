@@ -14,12 +14,13 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Give a brief overview of what you will cover", name: "description", widget: "text"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Header Image", name: "header", widget: "file"}
+      - {label: "Give a brief overview of what you will cover", name: "description", widget: "text"}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Recommended Article Title", name: "recommendedName", widget: "string"}
       - {label: "Recommended Article Image", name: "recommendedImage", widget: "file"}
       - {label: "Recommended Article URL (Link)", name: "recommendedLink", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "resources"

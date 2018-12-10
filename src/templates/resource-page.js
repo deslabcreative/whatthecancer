@@ -27,7 +27,7 @@ export default class Resource extends React.Component {
                   </p>
                   <p>
                     <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
+                      View Resource →
                     </Link>
                   </p>
                 </div>
