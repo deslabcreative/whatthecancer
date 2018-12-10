@@ -33,7 +33,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: Header Image, name: "image", widget: file}
       - {label: Description, name: "description", widget: string}
-      - {label: Resource Name, name: resourceName, widget: string}
+      - {label: Resource Name, name: title, widget: string}
       - {label: Resource Description, name: resourceDescription, widget: string}
       - {label: Resource Image, name: resourceImage, widget: image}
       - {label: Resource Price, name: resourcePrice, widget: string}
