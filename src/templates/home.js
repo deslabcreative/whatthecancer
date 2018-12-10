@@ -3,22 +3,27 @@ import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Email from './components/email'
+import Banner from './components/banner'
 import Content, { HTMLContent } from '../components/Content'
 
-export const HomePageTemplate = ({ title, content, contentComponent, homeImage, bannerSlogan, announcementBlurb, announcementImage, announcementLink }) => {
+export const HomePageTemplate = ({ 
+  title,
+  content, 
+  contentComponent,
+  image,
+  announcementBlurb,
+  announcementImage,
+  announcementLink 
+}) => {
   const PageContent = contentComponent || Content
 
   return (
     <Layout>
-      <section>
-        <header style={{backgroundImage: 'url("'+homeImage+'")'}}>
-          <h1 className="bannerTitle">{bannerSlogan}</h1>
-        </header>
-      </section>
+      <Banner background={image}>{title}</Banner>
       <section className="article greenLink">
         <PageContent className="content" content={content} />
-      <br></br>
-      <br></br>
+        <br></br>
+        <br></br>
       </section>
       <Link to={announcementLink}>
         <section>
@@ -36,8 +41,7 @@ export const HomePageTemplate = ({ title, content, contentComponent, homeImage, 
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  homeImage: PropTypes.file,
-  bannerSlogan: PropTypes.string,
+  image: PropTypes.file,
   announcementBlurb: PropTypes.string,
   announcementLink: PropTypes.string,
   announcementImage: PropTypes.file,
@@ -52,8 +56,7 @@ const HomePage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
-      homeImage={post.frontmatter.file}
-      bannerSlogan={post.frontmatter.string}
+      image={post.frontmatter.file}
       announcementBlurb={post.frontmatter.string}
       announcementLink={post.frontmatter.string}
       announcementImage={post.frontmatter.file}
@@ -74,8 +77,7 @@ export const homePageQuery = graphql`
       html
       frontmatter {
         title
-        homeImage
-        bannerSlogan
+        image
         announcementBlurb
         announcementLink
         announcementImage

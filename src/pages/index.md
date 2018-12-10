@@ -1,8 +1,7 @@
 ---
 templateKey: 'home'
-title: Home | What The Cancer
-path: /
-homeImage: img/home.jpg
+title: Helping you stay Cancer Free
+image: img/home.jpg
 bannerSlogan: Helping you stay Cancer Free
 announcementBlurb: Read our Blog
 announcementLink: /blog

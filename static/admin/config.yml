@@ -80,9 +80,8 @@ collections:
         create: true
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
-          - {label: Title, name: title, widget: string}
-          - {label: Header Image, name: "homeImage", widget: image}
-          - {label: Banner Slogan, name: "bannerSlogan", widget: string}
+          - {label: Banner Slogan, name: title, widget: string}
+          - {label: Header Image, name: "image", widget: file}
           - {label: Thin Strip (Announcement Bar) Title / Blurb, name: "announcementBlurb", widget: string}
           - {label: Thin Strip (Announcement Bar) Title / Blurb Link, name: "announcementLink", widget: string}
           - {label: Thin Strip (Announcement Bar) Image, name: "announcementImage", widget: file}
