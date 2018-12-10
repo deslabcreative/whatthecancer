@@ -14,7 +14,7 @@ export default class Resource extends React.Component {
       <Layout>
         <Banner>Resources</Banner>
         <div className="article">
-                  <hr />
+
             {posts
               .map(({ node: post }) => (
                 <div className="content" key={post.id}>

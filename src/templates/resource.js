@@ -27,7 +27,6 @@ export const ResourcePostTemplate = ({
       <div className="article">
         <p>{resourceDescription}</p><br /><br />
         <PostContent content={content} />
-        <a href={resourceLink}><h3>Purchase {resourceName} for {resourcePrice}</h3></a>
       </div>
       <Split background="/img/resource-splash.jpg" recommendedTitle="View All Our Resources" link="https://www.whatthecancer.com/resources" authorName={resourcePrice} authorBio="Download / Purchase this resource resource here" rightLink={resourceLink} />
     </div>
