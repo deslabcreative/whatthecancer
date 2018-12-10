@@ -1,7 +1,7 @@
 ---
 templateKey: 'home'
 title: Helping you stay Cancer Free
-image: img/home.jpg
+image: /img/hhf-book.png
 bannerSlogan: Helping you stay Cancer Free
 announcementBlurb: Read our Blog
 announcementLink: /blog

@@ -33,7 +33,7 @@ const AboutPage = ({ data }) => {
     <AboutPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
-      full_image={post.frontmatter.string}
+      full_image={post.frontmatter.full_image}
       content={post.html}
     />
   )

@@ -56,10 +56,10 @@ const HomePage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
-      image={post.frontmatter.file}
-      announcementBlurb={post.frontmatter.string}
-      announcementLink={post.frontmatter.string}
-      announcementImage={post.frontmatter.file}
+      image={post.frontmatter.image}
+      announcementBlurb={post.frontmatter.announcementBlurb}
+      announcementLink={post.frontmatter.announcementLink}
+      announcementImage={post.frontmatter.announcementImage}
     />
   )
 }
@@ -77,7 +77,7 @@ export const homePageQuery = graphql`
       html
       frontmatter {
         title
-        image
+        fullImage
         announcementBlurb
         announcementLink
         announcementImage
