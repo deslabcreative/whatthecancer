@@ -1,8 +1,7 @@
 ---
-templateKey: 'home'
+templateKey: home
 title: Helping you stay Cancer Free
-image: /img/hhf-book.png
-bannerSlogan: Helping you stay Cancer Free
+image: /img/home.jpg
 announcementBlurb: Read our Blog
 announcementLink: /blog
 announcementImage: img/anthony-intraversato-455600-unsplash.jpg
