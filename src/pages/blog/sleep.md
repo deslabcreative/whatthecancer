@@ -1,10 +1,11 @@
 ---
 templateKey: blog-post
 date: 2018-12-06T04:00:25.468Z
+title: Sleep
+header: /img/sleep.jpg
 description: >-
   In this article, Dr Lisa Dawson explains why sleep is so foundational to good
   health and how you literally fight cancer while you sleep.
-header: /img/sleep.jpg
 recommendedName: What Is Cancer
 recommendedImage: /img/resource-splash.jpg
 recommendedLink: 'https://www.whatthecancer.com/blog/what-is-cancer'
