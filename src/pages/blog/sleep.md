@@ -1,6 +1,5 @@
 ---
 templateKey: blog-post
-title: Sleep
 date: 2018-12-06T04:00:25.468Z
 description: >-
   In this article, Dr Lisa Dawson explains why sleep is so foundational to good
