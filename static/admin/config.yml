@@ -74,15 +74,19 @@ collections:
           - {label: Description, name: "description", widget: string}
           - {label: Full Image, name: "fullImage", widget: file}
           
-      - file: "src/pages/home.md"
+      - file: "src/pages/index.md"
         label: "Home Page"
         name: "home"
         create: true
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
           - {label: Title, name: title, widget: string}
           - {label: Header Image, name: "homeImage", widget: image}
-          - {label: Body Content, name: "homeContent", widget: markdown}
+          - {label: Banner Slogan, name: "bannerSlogan", widget: string}
+          - {label: Thin Strip (Announcement Bar) Title / Blurb, name: "announcementBlurb", widget: string}
+          - {label: Thin Strip (Announcement Bar) Title / Blurb Link, name: "announcementLink", widget: string}
+          - {label: Thin Strip (Announcement Bar) Image, name: "announcementImage", widget: file}
+          - {label: "Body Content", name: "body", widget: "markdown"}
       
       - file: "src/pages/lisa/index.md"
         label: "Lisa Profile"
