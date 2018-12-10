@@ -14,6 +14,7 @@ export const ResourcePostTemplate = ({
   resourceDescription,
   image,
   title,
+  resourceName,
   resourceImage,
   resourcePrice,
   resourceLink,
@@ -22,13 +23,13 @@ export const ResourcePostTemplate = ({
 
   return (
     <div>
-      <Banner background={resourceImage}>{title} - {resourcePrice}</Banner>
+      <Banner background={resourceImage}>{resourceName}</Banner>
       <div className="article">
         <p>{resourceDescription}</p><br /><br />
         <PostContent content={content} />
-        <a href={resourceLink}><h3>Purchase {title} for {resourcePrice}</h3></a>
+        <a href={resourceLink}><h3>Purchase {resourceName} for {resourcePrice}</h3></a>
       </div>
-      <Split background="/img/resource-splash.jpg" recommendedTitle="View All Our Resources" link="https://www.whatthecancer.com/resources" authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
+      <Split background="/img/resource-splash.jpg" recommendedTitle="View All Our Resources" link="https://www.whatthecancer.com/resources" authorName={resourcePrice} authorBio="Download / Purchase this resource resource here" rightLink={resourceLink} />
     </div>
   )
 }
@@ -39,6 +40,7 @@ ResourcePostTemplate.propTypes = {
   resourceDescription: PropTypes.string,
   image: PropTypes.file,
   helmet: PropTypes.instanceOf(Helmet),
+  resourceName: PropTypes.string,
   title: PropTypes.string,
   resourceImage: PropTypes.file,
   resourcePrice: PropTypes.string,
@@ -54,10 +56,11 @@ const ResourcePost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         resourceDescription={post.frontmatter.resourceDescription}
-        helmet={<Helmet title={`${post.frontmatter.title} | A Resource from What The Cancer`} />}
+        helmet={<Helmet title={`${post.frontmatter.resourceName} | A Resource from What The Cancer`} />}
         tags={post.frontmatter.tags}
         image={post.frontmatter.image}
         title={post.frontmatter.title}
+        resourceName={post.frontmatter.resourceName}
         resourceImage={post.frontmatter.resourceImage}
         resourcePrice={post.frontmatter.resourcePrice}
         resourceLink={post.frontmatter.resourceLink}
@@ -85,6 +88,7 @@ export const resourceQuery = graphql`
         resourceDescription,
         image,
         title,
+        resourceName,
         resourceImage,
         resourcePrice,
         resourceLink,

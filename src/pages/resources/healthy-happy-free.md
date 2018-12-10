@@ -5,7 +5,7 @@ image: /img/hhf-book.png
 description: >-
   This resource is a short e-book originally written and published in 2005 by Dr
   Lisa Dawson discussing how you can live a Healthy, Happy and Free life
-title: 'Healthy, Happy, Free'
+resourceName: 'Healthy, Happy, Free'
 resourceDescription: >-
   This resource is a short e-book originally written and published in 2005 by Dr
   Lisa Dawson discussing how you can live a Healthy, Happy and Free life

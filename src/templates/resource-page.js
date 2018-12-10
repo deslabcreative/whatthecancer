@@ -22,8 +22,8 @@ export default class Resource extends React.Component {
                   <p>
                     <Link to={post.fields.slug}>
                     </Link>
-                    <img src={post.frontmatter.resourceImage} alt={post.frontmatter.title} style={{ width: '100%'}}></img>
-                    <small>{post.frontmatter.title}<br></br>{post.frontmatter.resourcePrice}</small>
+                    <img src={post.frontmatter.resourceImage} alt={post.frontmatter.resourceName} style={{ width: '100%'}}></img>
+                    <small>{post.frontmatter.resourceName}<br></br>{post.frontmatter.resourcePrice}</small>
                   </p>
                   <p>
                     <Link className="button is-small" to={post.fields.slug}>
@@ -64,7 +64,7 @@ export const pageQuery = graphql`
           frontmatter {
             resourceDescription,
             image,
-            title,
+            resourceName,
             resourceImage,
             resourcePrice,
             resourceLink,
