@@ -14,7 +14,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   return (
     <header>
       <div className="slim-strip">
-        <b>Do you want to receive notifications when a new article is posted?</b>
+        <center><b>Do you want to receive notifications when a new article is posted?</b></center>
         <input
           ref={node => (name = node)}
           type="text"
@@ -24,7 +24,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         <input
           ref={node => (email = node)}
           type="email"
-          placeholder="Your email"
+          placeholder="Your Email"
         />
         <br />
         <button onClick={submit}>

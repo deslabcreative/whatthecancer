@@ -45,35 +45,6 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about-page"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Wide Image", name: "full_image", widget: file}
-
-      - file: "src/pages/jargon/index.md"
-        label: "Jargon"
-        name: "jargon"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Wide Image", name: "full_image", widget: file}
-
-      - file: "src/pages/resources/index.md"
-        label: "Resources Page"
-        name: "resource-page"
-        create: true
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resource-page"}
-          - {label: Title, name: "title", widget: string}
-          - {label: Header Image, name: "image", widget: file}
-          - {label: Description, name: "description", widget: string}
-          - {label: Full Image, name: "fullImage", widget: file}
-          
       - file: "src/pages/index.md"
         label: "Home Page"
         name: "home"
@@ -86,6 +57,43 @@ collections:
           - {label: Thin Strip (Announcement Bar) Title / Blurb Link, name: "announcementLink", widget: string}
           - {label: Thin Strip (Announcement Bar) Image, name: "announcementImage", widget: file}
           - {label: "Body Content", name: "body", widget: "markdown"}
+
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about-page"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Wide Image", name: "full_image", widget: file}
+          - {label: "Bottom Split Bar / Left Background", name: "leftBackground", widget: file}
+          - {label: "Bottom Split Bar / Left Second Line", name: "leftTitle", widget: string}
+          - {label: "Bottom Split Bar / Left Link", name: "leftLink", widget: string}
+          - {label: "Bottom Split Bar / Right Title", name: "rightTitle", widget: string}
+          - {label: "Bottom Split Bar / Right Description (Second Line)", name: "rightDescription", widget: string}
+          - {label: "Bottom Split Bar / Right Link", name: "rightUrl", widget: string}
+
+
+
+      - file: "src/pages/jargon/index.md"
+        label: "Jargon"
+        name: "jargon"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Wide Image", name: "full_image", widget: file}
+
+      - file: "src/pages/resources/index.md"
+        label: "All Resources Home Page"
+        name: "resource-page"
+        create: true
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "resource-page"}
+          - {label: Title, name: "title", widget: string}
+          - {label: Header Image, name: "image", widget: file}
+          - {label: Description, name: "description", widget: string}
+          - {label: Full Image, name: "fullImage", widget: file}
       
       - file: "src/pages/lisa/index.md"
         label: "Lisa Profile"
@@ -95,6 +103,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
           - {label: "Name", name: "title", widget: string}
           - {label: "Wide Image", name: "full_image", widget: file}
+          - {label: "Bottom Split Bar / Left Background", name: "leftBackground", widget: file}
+          - {label: "Bottom Split Bar / Left Second Line", name: "leftTitle", widget: string}
+          - {label: "Bottom Split Bar / Left Link", name: "leftLink", widget: string}
+          - {label: "Bottom Split Bar / Right Title", name: "rightTitle", widget: string}
+          - {label: "Bottom Split Bar / Right Description (Second Line)", name: "rightDescription", widget: string}
+          - {label: "Bottom Split Bar / Right Link", name: "rightUrl", widget: string}
           - {label: "Body", name: "body", widget: "markdown"}
       
   

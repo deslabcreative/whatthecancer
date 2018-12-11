@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Banner from './components/banner'
+import Split from './components/split'
 import Content, { HTMLContent } from '../components/Content'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, full_image }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, full_image, leftBackground, leftTitle, leftLink, rightTitle, rightDescription, rightUrl }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -13,7 +14,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, full_image
       <Banner background={full_image}>{title}</Banner>
       <div className="article">
         <PageContent className="content" content={content} />
-      </div>   
+      </div> 
+      <Split background={leftBackground} recommendedTitle={leftTitle} link={leftLink} authorName={rightTitle} authorBio={rightDescription} rightLink={rightUrl} />  
     </Layout>
               
   )
@@ -22,7 +24,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent, full_image
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  full_image: PropTypes.string,
+  full_image: PropTypes.file,
+  leftBackground: PropTypes.file,
+  leftTitle: PropTypes.string,
+  leftLink: PropTypes.string,
+  rightTitle: PropTypes.string,
+  rightDescription: PropTypes.string,
+  rightUrl: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
@@ -34,6 +42,12 @@ const AboutPage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       full_image={post.frontmatter.full_image}
+      leftBackground={post.frontmatter.leftBackground}
+      leftTitle={post.frontmatter.leftTitle}
+      leftLink={post.frontmatter.leftLink}
+      rightTitle={post.frontmatter.rightTitle}
+      rightDescription={post.frontmatter.rightDescription}
+      rightUrl={post.frontmatter.rightUrl}
       content={post.html}
     />
   )
@@ -53,6 +67,12 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         full_image
+        leftBackground
+        leftTitle
+        leftLink
+        rightTitle
+        rightDescription
+        rightUrl
       }
     }
   }
