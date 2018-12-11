@@ -2,6 +2,12 @@
 templateKey: about-page
 title: Jargon Dictionary
 full_image: /img/resource-splash.jpg
+leftBackground: /img/resource-splash.jpg
+leftTitle: View All Our Resources
+leftLink: https://www.whatthecancer.com/resources
+rightTitle: Read our Blog
+rightDescription: Read, Listen or Watch articles on topics relating to fighting and prevention of cancer
+rightUrl: /blog
 ---
 ## A
 
