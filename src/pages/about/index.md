@@ -1,13 +1,13 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: About What The Cancer
+full_image: /img/about-two.jpg
 leftBackground: /img/resource-splash.jpg
-leftTitle: View All Our Resources
-leftLink: https://www.whatthecancer.com/resources
-rightTitle: Right Title
-rightDescription: Download / Purchase this resource resource here
-rightUrl: /resources
+leftTitle: Our Resources
+leftLink: /resources
+rightTitle: Meet Lisa
+rightDescription: 'Oncologist, Health Advocate and Author'
+rightUrl: /lisa
 ---
 
 Hi I’m Lisa Dawson, I’m a medical Oncologist and lifestyle medicine advocate.
