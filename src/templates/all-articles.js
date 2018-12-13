@@ -15,7 +15,7 @@ export default class Blog extends React.Component {
       <Layout>
         <Banner>All Articles</Banner>
         <div className="article">
-        <Link to="/tags/"><h1>Search by "Tag"</h1></Link>
+        <center><h1><a href="/tags/" title="Search What The Cancer by Tags / Unique Identifiers">Search by Tag</a></h1></center>
                   <hr />
             {posts
               .map(({ node: post }) => (
