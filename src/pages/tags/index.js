@@ -10,8 +10,11 @@ const TagsPage = ({
   data: { allMarkdownRemark: { group }, site: { siteMetadata: { title } } },
 }) => (
   <Layout>
-    <Helmet title={`Tags | ${title}`} />
-    <Banner>Find Articles by "Tag"</Banner>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Tags - What the Cancer</title>
+    </Helmet>
+    <Banner>Find Articles by Tag</Banner>
     <div className="article">
       
             <ul className="taglist">

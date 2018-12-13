@@ -15,6 +15,7 @@ const CustomForm = ({ status, message, onValidated }) => {
     <header>
       <div className="slim-strip">
         <center><b>Do you want to receive notifications when a new article is posted?</b></center>
+        <br />
         <input
           ref={node => (name = node)}
           type="text"
@@ -28,7 +29,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         />
         <br />
         <button onClick={submit}>
-          Submit
+          SUBMIT
         </button>
       </div>
     </header>
