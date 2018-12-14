@@ -14,9 +14,7 @@ https://youtu.be/EJP7kFA3jPQ
 
 Most people have heard about the benefits of exercise in cancer. There is good evidence that it helps reduce side effects from chemotherapy especially fatigue and improves psychological health especially depression and anxiety, both common in people who have had a cancer diagnosis. But did you know that that  studies have shown that exercise can significantly reduce your risk of developing many cancers including halving your risk of bowel cancer, and significantly reducing the risk of breast and prostate cancer. Studies have shown it can also  reduce your risk of relapse of these cancers (up to 42% in bowel and breast in a recent meta analysis). 
 
-
-
-Some of the ways that cancer can achieve this is by : 
+Some of the ways that exercise can achieve this is by : 
 
 ∙ Reducing insulin levels. 
 
@@ -48,8 +46,6 @@ Other benefits of exercise include :
 
 ∙ Improves fatigue by increasing the number and quality of mitochondria in our muscles. Mitochondria in our cells make energy.
 
-
-
 When it comes to exercise the message is simple MOVE MOVE MOVE. Any movement at all improves our health.  
 
 Maximum benefits are achieved by : 
@@ -58,8 +54,7 @@ Maximum benefits are achieved by :
 
 ◊ Engage in aerobic exercise. This is any exercise where you get your heart rate and breathing rate up. You need to aim for at least 30 minutes a day! Walking, gardening, running, biking, swimming, team sports. Mix it up. SCHEDULE it in. Make it HIGH priority.
 
-◊ Also do resistance exercise at least 2 time a week for at least 15 minutes : Resistance exercise can include some home based exercises, going to the gym or doing pilates or yoga. I have included a link to Dr. Chatterjee's 5 minute kitchen work out.
-
- 
+◊ Also do resistance exercise at least 2 time a week for at least 15 minutes : Resistance exercise can include some home based exercises, going to the gym or doing pilates or yoga.
+ I have included a link to Dr. Chatterjee's 5 minute kitchen work out.
 
 If you have a cancer diagnosis I would recommend seeing a trained exercise professional such as a personal trainer or exercise physiologist  to help you with a program that is suitable. I tell my patients to rest if they are exhausted but if they are just tired getting up and exercising can help overcome that fatigue.
