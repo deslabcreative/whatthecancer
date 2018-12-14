@@ -2,10 +2,10 @@
 templateKey: blog-post
 date: 2018-12-14T02:06:20.298Z
 title: Exercise
-header: /img/listen.jpg
+header: /img/move.jpg
 description: Learn about the benefits of exercise;
 recommendedName: Dr. Chatterjees 5 minute kitchen workout.
-recommendedImage: /img/move.jpg
+recommendedImage: /img/kitchen-workout.jpg
 recommendedLink: 'https://www.youtube.com/watch?v=jtZB95-AVZM'
 tags:
   - cancer exercise
