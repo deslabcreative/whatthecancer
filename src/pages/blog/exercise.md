@@ -2,7 +2,7 @@
 templateKey: blog-post
 date: 2018-12-14T02:06:20.298Z
 title: Exercise
-header: /img/move.jpg
+header: /img/trainers.jpg
 description: Learn about the benefits of exercise;
 recommendedName: Dr. Chatterjees 5 minute kitchen workout.
 recommendedImage: /img/kitchen-workout.jpg
