@@ -10,7 +10,7 @@ export const HomePageTemplate = ({
   title,
   content, 
   contentComponent,
-  fullImage,
+  image,
   announcementBlurb,
   announcementImage,
   announcementLink 
@@ -19,7 +19,7 @@ export const HomePageTemplate = ({
 
   return (
     <Layout>
-      <Banner background={fullImage}>{title}</Banner>
+      <Banner background={image}>{title}</Banner>
       <section className="article greenLink">
         <PageContent className="content" content={content} />
         <br></br>
@@ -41,7 +41,7 @@ export const HomePageTemplate = ({
 HomePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  fullImage: PropTypes.file,
+  image: PropTypes.file,
   announcementBlurb: PropTypes.string,
   announcementLink: PropTypes.string,
   announcementImage: PropTypes.file,
@@ -56,7 +56,7 @@ const HomePage = ({ data }) => {
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
-      fullImage={post.frontmatter.fullImage}
+      image={post.frontmatter.image}
       announcementBlurb={post.frontmatter.announcementBlurb}
       announcementLink={post.frontmatter.announcementLink}
       announcementImage={post.frontmatter.announcementImage}
@@ -77,7 +77,7 @@ export const homePageQuery = graphql`
       html
       frontmatter {
         title
-        fullImage
+        image
         announcementBlurb
         announcementLink
         announcementImage
