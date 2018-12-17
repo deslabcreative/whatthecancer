@@ -6,7 +6,7 @@ leftBackground: /img/resource-splash.jpg
 leftTitle: Our Resources
 leftLink: /resources
 rightTitle: Meet Lisa
-rightDescription: 'Oncologist, Health Advocate and Author'
+rightDescription: Medical Oncologist
 rightUrl: /lisa
 ---
 no content
