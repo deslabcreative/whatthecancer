@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 date: 2018-10-15T09:10:46.925Z
-title: What is WhattheCancer?
+title: What is What The Cancer?
 header: /img/anthony-intraversato-455600-unsplash.jpg
 description: 'In this episode, Lisa introduces her website What the Cancer'
 recommendedName: Sleep
