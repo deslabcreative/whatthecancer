@@ -5,7 +5,7 @@ full_image: /img/lisa-2-.jpg
 leftBackground: /img/lisa-2-.jpg
 leftTitle: View All Our Resources
 leftLink: 'https://www.whatthecancer.com/resources'
-rightTitle: Dawsons
+rightTitle: What The Cancer?
 rightDescription: Resources
 rightUrl: 'https://www.prekure.com/'
 ---
