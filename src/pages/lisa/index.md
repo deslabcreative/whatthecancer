@@ -1,14 +1,18 @@
 ---
 templateKey: about-page
 title: Dr Lisa Dawson
-full_image: /img/resource-splash.jpg
-leftBackground: /img/resource-splash.jpg
+full_image: /img/img_5238-002-copy.jpg
+leftBackground: /img/30221964_10156628835709369_8453121359428452352_n.jpg
 leftTitle: View All Our Resources
 leftLink: 'https://www.whatthecancer.com/resources'
 rightTitle: Right Title
-rightDescription: Download / Purchase this resource resource here
-rightUrl: /resources
+rightDescription: Resources
+rightUrl: 'https://www.prekure.com/'
 ---
+Lisa is a Medical Oncologist working in Northland New Zealand. She practices in both the public hospital and for Canopy Cancer Care in private practice. She started the Cancer and blood services in Northland in 2014 and was clinical director for 3 years.   Under her leadership the Cancer and blood servicesl won an award for an Outstanding Model of Care. Lisa has a particular interest in breast cancer.
 
+Lisa is a member of the Society of Integrative Oncology whose mission it is to advance evidence-based, comprehensive, integrative healthcare to improve the lives of people affected by cancer. 
 
-No content
+In 2018 Lisa joined the faculty of Prekure - a social enterprise that exists to inspire a change in medicine to be more focused on prevention through lifestyle as medicine.
+
+When not working, she is running around with the kids,  walking her beloved dog Molly or sailing on the family boat. She also loves riding horses, eating food and reading books. The family are active in their local church.
