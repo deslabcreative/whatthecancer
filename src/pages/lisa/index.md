@@ -9,7 +9,7 @@ rightTitle: Right Title
 rightDescription: Resources
 rightUrl: 'https://www.prekure.com/'
 ---
-Lisa is a Medical Oncologist working in Northland New Zealand. She practices in both the public hospital and for Canopy Cancer Care in private practice. She started the Cancer and blood services in Northland in 2014 and was clinical director for 3 years.   Under her leadership the Cancer and blood servicesl won an award for an Outstanding Model of Care. Lisa has a particular interest in breast cancer.
+Lisa is a Medical Oncologist working in Northland New Zealand. She practices in both the public hospital and for Canopy Cancer Care in private practice. She started the Cancer and blood services in Northland in 2014 and was clinical director for 3 years.   Under her leadership the Cancer and blood servicesl won the DHB award for 'Outstanding Model of Care'. Lisa has a particular interest in breast cancer.
 
 Lisa is a member of the Society of Integrative Oncology whose mission it is to advance evidence-based, comprehensive, integrative healthcare to improve the lives of people affected by cancer. 
 
