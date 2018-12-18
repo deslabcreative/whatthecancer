@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About What The Cancer
 full_image: /img/about-two.jpg
-leftBackground: /img/resource-splash.jpg
+leftBackground: /img/photo-1519895387466-5fc5e7bf8b3c.jpg
 leftTitle: Our Resources
 leftLink: /resources
 rightTitle: Meet Lisa
