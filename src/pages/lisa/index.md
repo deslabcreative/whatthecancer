@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: Dr Lisa Dawson
-full_image: /img/img_5238-002-copy.jpg
+full_image: /img/lisa-2-.jpg
 leftBackground: /img/30221964_10156628835709369_8453121359428452352_n.jpg
 leftTitle: View All Our Resources
 leftLink: 'https://www.whatthecancer.com/resources'
