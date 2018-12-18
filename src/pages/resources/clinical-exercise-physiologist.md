@@ -2,7 +2,7 @@
 templateKey: resource
 date: 2018-12-18T06:51:03.865Z
 image: /img/xexercise-physiology-banner.jpg.pagespeed.ic.mj-ciyjfc-.jpg
-description: Clinical Exercise Physiologist
+description: Find Clinical Exercise Physiologist
 title: Clinical Exercise Physiologist
 resourceName: Clinical Exercise Physiologist
 resourceDescription: Find a Clinical Exercise Phsiologist
