@@ -9,7 +9,7 @@ description: >-
 title: What the Fast
 resourceName: What the Fast
 resourceDescription: Fasting
-resourceImage: /img/detail.hfjn-5548-ga50.0.photo.192825750x.jpg
+resourceImage: /img/detail.hfjn-5548-ga50.0.photo.192825750x-2-.jpg
 resourcePrice: $34.95
 resourceLink: 'https://whatthefatbook.com/product/what-the-fast/'
 tags:
