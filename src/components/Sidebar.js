@@ -12,6 +12,7 @@ export default props => {
         <Link to="/about">About</Link>&nbsp;&nbsp;&nbsp;
         <Link to="/lisa">Lisa</Link>&nbsp;&nbsp;&nbsp;
         <Link to="/blog">Blog</Link>&nbsp;&nbsp;&nbsp;
+        <Link to="/resources">Resources</Link>&nbsp;&nbsp;&nbsp;
         <Link to="/listen">Listen</Link>&nbsp;&nbsp;&nbsp;
       </h1>
     </Menu>
