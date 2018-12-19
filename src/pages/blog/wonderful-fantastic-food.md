@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 date: 2018-12-18T04:18:01.733Z
-title: Wonderful Fantastic Food
+title: Food Wonderful Food
 header: /img/randy-fath-975846-unsplash-1-.jpg
 description: >-
   Before we look at whats good for us to eat I'd like to promote how wonderful
