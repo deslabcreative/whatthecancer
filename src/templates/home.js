@@ -17,7 +17,7 @@ export const HomePageTemplate = ({
 }) => {
   const PageContent = contentComponent || Content
 
-  return (
+  return ( 
     <Layout>
       <Banner background={image}>{title}</Banner>
       <section className="article greenLink">
