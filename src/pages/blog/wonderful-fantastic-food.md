@@ -38,7 +38,7 @@ _**
 
 The three main food groups are carbohydrates, proteins and fats. These contain minerals, vitamins and phytonutrients which are often lost in processing and refining. Furthermore, refining and processing often produces foods that cause inflammation and high insulin levels—both risk factors for cancer. We want to eat more foods that are anti-inflammatory and less that are inflammatory.
 
-**Carbohydrates:
+**CARDBOHYDRATES:
 **
 
 **EAT MORE: **
@@ -53,7 +53,7 @@ Refined carbohydrates such as flour which is found in breads, crackers, breakfas
 
 Anything with refined sugar added—especially sugary drinks.
 
-**Protein:
+**PROTEINS:
 **
 
 **EAT MORE:**
@@ -80,7 +80,7 @@ Processed meats (salami, ham, bacon, sausages).
 
 Intensively farmed meats (grain fed beef and chicken) 
 
-**Fats:** 
+**FATS:**
 
 These can be inflammatory (which raises insulin levels) or anti-inflammatory. Our modern diets have far too many inflammatory fats and not enough anti-inflammatory fats. Refined and processed fats are especially bad for us.
 
