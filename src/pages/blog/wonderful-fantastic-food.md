@@ -17,9 +17,9 @@ tags:
   - Food Diet Cancer
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hzoKFycwHYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
-\
-\
-**Diet** is important in all aspects of cancer management, whether you are trying to stay cancer free or currently have cancer. The principles of diet are the same, with some important caveats.
+
+
+Diet is important in all aspects of cancer management, whether you are trying to stay cancer free or currently have cancer. The principles of diet are the same, with some important caveats.
 
 If you don’t have a current cancer diagnosis, that is you have had cancer and are now in remission, it may be beneficial to lose weight if you are overweight. A normal BMI and weight loss are both associated with less relapse.
 
@@ -29,34 +29,34 @@ Diets associated with better outcomes are low in refined carbohydrates, processe
 
 **Intermittent fasting** and fasting overnight have great potential to improve outcomes and reduce symptoms from chemotherapy. It certainly has the ability to stimulate the body into a catabolic state (resting rather than proliferating), this is when faulty cells such as cancer cells are either repaired or removed. Fasting for 12 or more hours overnight helps the body do this every night, it also helps you develop healthy gut bacteria, also associated with better cancer outcomes. Mouse studies have shown that cancers grow more slowly in these conditions and become more vulnerable to chemotherapy. Likewise when healthy cells are in a rest and repair state they are less vulnerable to damage by chemotherapy, cancer cells never rest so remain vulnerable. However we have no evidence yet  as to how this might impact on human survival in cancer and no protocols to follow. As I said before it important that patients with a normal or low BMI don’t lose weight with stage 4 cancer and adequate nutrition is vital.
 
-_**Another vital part of diet is the microbiome **_(the bacteria in our gut) which I will discuss separately in another blog. Again a diet rich in plant foods and fermented foods with lots of diversity is important for a healthy gut and a healthy gut is associated with better outcomes.
+**_Another vital part of diet is the microbiome _**(the bacteria in our gut) which I will discuss separately in another blog. Again a diet rich in plant foods and fermented foods with lots of diversity is important for a healthy gut and a healthy gut is associated with better outcomes.
 
 Below is an excerpt from my booklet.
 
-_**What to eat and what to avoid. 
-**_
+**_What to eat and what to avoid. 
+_**
 
 The three main food groups are carbohydrates, proteins and fats. These contain minerals, vitamins and phytonutrients which are often lost in processing and refining. Furthermore, refining and processing often produces foods that cause inflammation and high insulin levels—both risk factors for cancer. We want to eat more foods that are anti-inflammatory and less that are inflammatory.
 
 **Carbohydrates:
 **
 
-_EAT MORE: _
+**EAT MORE: **
 
 Carbohydrates from whole foods. Fruit and vegetables, legumes (beans, peas, lentils), whole grains (such as oats) and nuts and seeds.
 
-_CUT DOWN:_
+**CUT DOWN:**
 
 Refined carbohydrates such as flour which is found in breads, crackers, breakfast cereals, biscuits and cakes.
 
-_AVOID MOST OF THE TIME:_
+**AVOID MOST OF THE TIME:**
 
 Anything with refined sugar added—especially sugary drinks.
 
 **Protein:
 **
 
-_EAT MORE:_
+**EAT MORE:**
 
 Good quality proteins which can be found in: 	
 
@@ -68,13 +68,13 @@ Free range eggs, every day is OK.
 
 Nuts and Seeds. Not too many as they are high in fat.
 
-_CUT DOWN: _
+**CUT DOWN: **
 
 Red Meat; try to eat organic, grass fed meat but limit to about 500g a week.
 
 Chicken; again, try to eat organic and free range.
 
-_AVOID MOST OF THE TIME: _
+**AVOID MOST OF THE TIME: **
 
 Processed meats (salami, ham, bacon, sausages).
 
@@ -84,7 +84,7 @@ Intensively farmed meats (grain fed beef and chicken)
 
 These can be inflammatory (which raises insulin levels) or anti-inflammatory. Our modern diets have far too many inflammatory fats and not enough anti-inflammatory fats. Refined and processed fats are especially bad for us.
 
-_EAT MORE_ Good Fats (anti-inflammatory and high in micronutrients):
+**EAT MORE** Good Fats (anti-inflammatory and high in micronutrients):
 
 Fats found in whole foods such as avocados, nuts, seeds and fish
 
@@ -96,13 +96,13 @@ Saturated fats in small amounts.  Non-animal sources include unrefined coconut o
 
 Keep good fats good by only cooking with fats that have a high smoke point such as avocado oil and coconut oil. Keeps fats away from heat and light in dark glass bottles. Discard after the best before date.
 
-_CUT DOWN_ on Inflammatory Fats: 
+**CUT DOWN** on Inflammatory Fats: 
 
 Omega 6 fats can cause inflammation and we have too many in the Western diet. They are found in many grain and seed oils (such as sunflower oil, safflower oil, canola oil, and soybean oil), margarines, cage eggs, grain fed meat and refined foods. 
 
 Saturated fats from animals can be inflammatory. Only have a small amount of these fats.
 
-_AVOID _
+**AVOID**_ _
 
 Hydrogenated fats and Trans fats. These are not found in nature but are manmade and found in processed foods such as biscuits, cakes, ready meals and margarines.
 
