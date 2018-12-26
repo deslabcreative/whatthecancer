@@ -14,7 +14,9 @@ recommendedName: Jamies Oliver's Healthy food receipes
 recommendedImage: /img/randy-fath-975846-unsplash-1-.jpg
 recommendedLink: 'https://www.jamieoliver.com/recipes/'
 tags:
-  - Food Diet Cancer
+  - Food
+  - Diet
+  - Cancer
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hzoKFycwHYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -22,9 +24,9 @@ Diet is important in all aspects of cancer management, whether you are trying to
 \
 If you don’t have a current cancer diagnosis, that is you have had cancer and are now in remission, it may be beneficial to lose weight if you are overweight. A normal BMI and weight loss are both associated with less relapse.\
 \
-If you currently have a cancer diagnosis weight loss can be a problem and although a low carbohydrate diet and intermittent fasting may be beneficial it’s very important to have sufficient calories to maintain your weight. Weight loss can be a problem in stage 4 cancer and is associated with poorer outcomes. This is why it is best to undertake any dietary modifications supervised by a nutritionist or dietitian if possible.
-
-**Diets **associated with better outcomes are low in refined carbohydrates, processed and refined foods and are high in vegetables, fruit, nuts, seeds, legumes and other whole foods. It is not necessary to be vegan or even vegetarian, although a diet that is predominantly plant food is best. This provides great nutrition, boosting our immune system and reducing inflammation.\
+If you currently have a cancer diagnosis weight loss can be a problem and although a low carbohydrate diet and intermittent fasting may be beneficial it’s very important to have sufficient calories to maintain your weight. Weight loss can be a problem in stage 4 cancer and is associated with poorer outcomes. This is why it is best to undertake any dietary modifications supervised by a nutritionist or dietitian if possible.\
+\
+**Diets** associated with better outcomes are low in refined carbohydrates, processed and refined foods and are high in vegetables, fruit, nuts, seeds, legumes and other whole foods. It is not necessary to be vegan or even vegetarian, although a diet that is predominantly plant food is best. This provides great nutrition, boosting our immune system and reducing inflammation.\
 \
 I believe we need to make quite **radical changes **to our diet and fall in love with food again. In our fast paced society we have resorted to a lot of refined and processed foods, snacking frequently (often on high carb and/or junk foods) and eating takeaways.
 
