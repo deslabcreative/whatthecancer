@@ -9,7 +9,5 @@ resourceDescription: Find a Clinical Exercise Phsiologist
 resourceImage: /img/xexercise-physiology-banner.jpg.pagespeed.ic.mj-ciyjfc-.jpg
 resourcePrice: Varies
 resourceLink: 'https://www.cepnz.org.nz/'
-tags:
-  - exercise
 ---
 A clinical exercise physiologist can be defined as an individual who specialises in the delivery of exercise, lifestyle and behavioural modification programmes for the prevention, management and rehabilitation of chronic conditions and diseases, and injuries.

@@ -9,7 +9,5 @@ resourceDescription: Food guidelines
 resourceImage: /img/small-food.jpg
 resourcePrice: Free
 resourceLink: 'https://www.prekure.com/food-guidelines/'
-tags:
-  - Food
 ---
 Download the free Prekure food guidelines as recommended by internationally respected Dietitian Caryn Zinn

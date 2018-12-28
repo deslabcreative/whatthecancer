@@ -12,7 +12,5 @@ resourceDescription: Fasting
 resourceImage: /img/detail.hfjn-5548-ga50.0.photo.192825750x-2-.jpg
 resourcePrice: $34.95
 resourceLink: 'https://whatthefatbook.com/product/what-the-fast/'
-tags:
-  - Fasting
 ---
 At the cutting edge of the latest science, What the Fast! is a practical guide to get you started with intermittent fasting (IF) or Super-Fasting (SF) as we now call it. Plus it comes with all the science and the recipes too.

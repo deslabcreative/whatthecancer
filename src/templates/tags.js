@@ -8,11 +8,13 @@ class TagRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges
     const postLinks = posts.map(post => (
-      <div className="content" key={post.node.fields.slug}>
-        <Link className="greenLink" to={post.node.fields.slug}>
-          <h1>{post.node.frontmatter.title}</h1>
-        </Link>
-      </div>
+      <Link to={post.node.fields.slug}>
+                  <div className="listing" style={{backgroundImage: 'url("'+post.node.frontmatter.header+'")'}}>
+                    <div className="glaze">
+                      <h1>{post.node.frontmatter.title}</h1>{post.node.frontmatter.date}
+                    </div>
+                  </div>
+                </Link>
     ))
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
@@ -29,7 +31,7 @@ class TagRoute extends React.Component {
           <div className="article">
   
               <div className="content">
-                <Link to="/tags/" className="green"><h1 className="green">View all tags</h1></Link>
+                <Link to="/blog/" className="green"><h1 className="green">View all Articles</h1></Link>
                 <hr />
                 {postLinks}
               </div>
@@ -65,6 +67,8 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
+            header
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
