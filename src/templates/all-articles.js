@@ -26,20 +26,13 @@ export default class Blog extends React.Component {
         <div className="article">
             {posts
               .map(({ node: post }) => (
-                <div className="content" key={post.id}>
-                  
-                  <p>
-                    <Link to={post.fields.slug}>
-                      <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '100%'}}></img>
-                    </Link>
-                    <small>{post.frontmatter.title}<br></br>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
-                </div>
+                <Link to={post.fields.slug}>
+                  <div className="listing" key={post.id} style={{backgroundImage: 'url("'+post.frontmatter.header+'")'}}>
+                    <div className="glaze">
+                      <h1>{post.frontmatter.title}</h1>{post.frontmatter.date}
+                    </div>
+                  </div>
+                </Link>
               ))}
         </div>
       </Layout>

@@ -17,21 +17,14 @@ export default class Resource extends React.Component {
 
             {posts
               .map(({ node: post }) => (
-                <div className="content" key={post.id}>
-                  
-                  <p>
-                    <Link to={post.fields.slug}>
-                    <img src={post.frontmatter.resourceImage} alt={post.frontmatter.resourceName} style={{ width: '100%'}}></img>
-                    </Link>
-                    <small>{post.frontmatter.resourceName}<br></br>{post.frontmatter.resourcePrice}</small>
-                    
-                  </p>
-                  <p>
-                    <Link className="button is-small" to={post.fields.slug}>
-                      View Resource →
-                    </Link>
-                  </p>
-                </div>
+
+                <Link to={post.fields.slug}>
+                  <div className="listing" key={post.id} style={{backgroundImage: 'url("'+post.frontmatter.resourceImage+'")'}}>
+                    <div className="glaze">
+                      <h1>{post.frontmatter.resourceName}</h1>{post.frontmatter.resourcePrice}
+                    </div>
+                  </div>
+                </Link>
               ))}
         </div>
       </Layout>
