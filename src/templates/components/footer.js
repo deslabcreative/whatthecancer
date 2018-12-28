@@ -15,7 +15,7 @@ const Footer = ({children, background, recommendedTitle, authorName, authorBio})
                 <br></br>
                 <br></br>
                 <span className="left-fifty">© What The Cancer, 2018</span>
-                <a href="http://www.deslab.co.nz" title="A Deslab Creative Website"><img className="deslab-logo" src="../../../img/deslab-blue.png" alt="Deslab Creative" /></a>
+                <a href="http://www.deslab.co.nz" title="A Deslab Creative Website"><img className="deslab-logo" src="./deslab-blue.png" alt="Deslab Creative" /></a>
             </p>
         </div>
         

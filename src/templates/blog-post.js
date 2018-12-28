@@ -1,13 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Banner from './components/banner'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Email from './components/email-form'
 import Split from './components/split'
-import Footer from './components/footer'
 import Content, { HTMLContent } from '../components/Content'
 
 export const BlogPostTemplate = ({
@@ -24,12 +21,17 @@ export const BlogPostTemplate = ({
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{title} - Dr Lisa Dawson - What The Cancer</title>
+        <meta name="description" content={description}/>
+      </Helmet>
       <Banner background={header}>{title}</Banner>
       <div className="article">
         <p>{description}</p><br /><br />
         <PostContent content={content} />
       </div>
-      <Split background={recommendedImage} recommendedTitle={recommendedName} link={recommendedLink} authorName="Lisa Dawson" authorBio="Leading Oncologist, Speaker and Author" />
+      <Split background={recommendedImage} recommendedTitle={recommendedName} link={recommendedLink} authorName="Lisa Dawson" authorBio="Oncologist, Speaker and Author" />
     </div>
   )
 }
@@ -41,6 +43,7 @@ BlogPostTemplate.propTypes = {
   header: PropTypes.file,
   title: PropTypes.string,
   helmet: PropTypes.instanceOf(Helmet),
+  tags: PropTypes.string,
   recommendedName: PropTypes.string,
   recommendedImage: PropTypes.file,
   recommendedLink: PropTypes.string,
@@ -55,7 +58,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+        helmet={<Helmet title={`${post.frontmatter.title} | Blog | What The Cancer`} />}
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         header={post.frontmatter.header}

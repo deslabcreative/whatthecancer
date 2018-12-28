@@ -43,13 +43,14 @@ a
   color: $green
 
 span
-  font-size: 0.9em
+  font-size: 1.2em
   font-weight: 300
   color: inherit
 
 body
   padding: 0
   margin: 0
+  overflow-x: hidden
 
 .content .taglist
   list-style: none
@@ -217,6 +218,35 @@ header
     margin-left: 32.5%
     
 
+
+
+
+
+// All Articles tag list
+
+.floatingTags
+  width: 100%
+  padding-left: 10%
+  padding-right: 10%
+  padding-top: 20px
+  padding-bottom: 20px
+  margin-top: 0px
+  margin-bottom: 100px
+  background: #fcfcfc
+  position: relative
+  z-index: 0
+  align-content: left
+  color: $green
+  z-index: 1000
+  font-size: 1.2em
+  text-align: left
+  overflow-x: scroll
+  
+
+  a 
+    color: $green
+    font-size: 1.2em
+
 // nav
 
 .navbar
@@ -272,6 +302,9 @@ header
   p
     margin-left: 10%
     margin-right: 10%
+
+  .left:before
+    background-color: rgba(0,0,0,0.5)
 
 
 

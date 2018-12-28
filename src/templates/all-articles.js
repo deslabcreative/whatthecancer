@@ -4,27 +4,34 @@ import { Link, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Banner from './components/banner'
 import Layout from '../components/Layout'
-import Footer from './components/footer'
+import { kebabCase } from 'lodash'
+
 
 export default class Blog extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    
 
     return (
       <Layout>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>All Articles - What the Cancer</title>
+        </Helmet>
         <Banner>All Articles</Banner>
+        <div className="floatingTags">
+        Refine by popular Categories: &nbsp; &nbsp; &nbsp; <a href="/tags/food">Food</a>&nbsp;&nbsp;&nbsp;<a href="/tags/exercise">Exercise</a>&nbsp;&nbsp;&nbsp;<a href="/tags/sleep">Sleep</a>&nbsp;&nbsp;&nbsp;<a href="/tags/spirituality">Spirituality</a>&nbsp;&nbsp;&nbsp;<a href="/tags/">More Categories</a>
+        </div>
         <div className="article">
-        <center><h1><a href="/tags/" className="green" title="Search What The Cancer by Tags / Unique Identifiers">Search by Tag</a></h1></center>
-                  <hr />
             {posts
               .map(({ node: post }) => (
                 <div className="content" key={post.id}>
                   
                   <p>
                     <Link to={post.fields.slug}>
+                      <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '100%'}}></img>
                     </Link>
-                    <img src={post.frontmatter.header} alt={post.frontmatter.title} style={{ width: '100%'}}></img>
                     <small>{post.frontmatter.title}<br></br>{post.frontmatter.date}</small>
                   </p>
                   <p>

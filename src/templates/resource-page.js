@@ -21,9 +21,10 @@ export default class Resource extends React.Component {
                   
                   <p>
                     <Link to={post.fields.slug}>
-                    </Link>
                     <img src={post.frontmatter.resourceImage} alt={post.frontmatter.resourceName} style={{ width: '100%'}}></img>
+                    </Link>
                     <small>{post.frontmatter.resourceName}<br></br>{post.frontmatter.resourcePrice}</small>
+                    
                   </p>
                   <p>
                     <Link className="button is-small" to={post.fields.slug}>
