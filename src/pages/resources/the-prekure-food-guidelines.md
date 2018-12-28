@@ -6,7 +6,7 @@ description: Great food guidelines to inspire not restrict.
 title: The Prekure Food Guidelines
 resourceName: Prekure Food Guidelines
 resourceDescription: Food guidelines
-resourceImage: /img/photo-1533777857889-4be7c70b33f7.jpg
+resourceImage: /img/small-food.jpg
 resourcePrice: Free
 resourceLink: 'https://www.prekure.com/food-guidelines/'
 tags:

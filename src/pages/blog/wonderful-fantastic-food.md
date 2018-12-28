@@ -14,93 +14,42 @@ recommendedName: Jamies Oliver's Healthy food receipes
 recommendedImage: /img/randy-fath-975846-unsplash-1-.jpg
 recommendedLink: 'https://www.jamieoliver.com/recipes/'
 tags:
-  - Food Diet Cancer
+  - Food
+  - Diet
+  - Cancer
 ---
-**Diet** is important in all aspects of cancer management, whether you are trying to stay cancer free or currently have cancer. The principles of diet are the same, with some important caveats.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hzoKFycwHYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you don’t have a current cancer diagnosis, that is you have had cancer and are now in remission, it may be beneficial to lose weight if you are overweight. A normal BMI and weight loss are both associated with less relapse.
+Diet is important in all aspects of cancer management, whether you are trying to stay cancer free or currently have cancer. The principles of diet are the same, with some important caveats.\
+\
+If you don’t have a current cancer diagnosis, that is you have had cancer and are now in remission, it may be beneficial to lose weight if you are overweight. A normal BMI and weight loss are both associated with less relapse.\
+\
+If you currently have a cancer diagnosis weight loss can be a problem and although a low carbohydrate diet and intermittent fasting may be beneficial it’s very important to have sufficient calories to maintain your weight. Weight loss can be a problem in stage 4 cancer and is associated with poorer outcomes. This is why it is best to undertake any dietary modifications supervised by a nutritionist or dietitian if possible.\
+\
+**Diets** associated with better outcomes are low in refined carbohydrates, processed and refined foods and are high in vegetables, fruit, nuts, seeds, legumes and other whole foods. It is not necessary to be vegan or even vegetarian, although a diet that is predominantly plant food is best. This provides great nutrition, boosting our immune system and reducing inflammation.\
+\
+I believe we need to make quite **radical changes **to our diet and fall in love with food again. In our fast paced society we have resorted to a lot of refined and processed foods, snacking frequently (often on high carb and/or junk foods) and eating takeaways.
 
-If you currently have a cancer diagnosis weight loss can be a problem and although a low carbohydrate diet and intermittent fasting may be beneficial it’s very important to have sufficient calories to maintain your weight. Weight loss can be a problem in stage 4 cancer and is associated with poorer outcomes. This is why it is best to undertake any dietary modifications supervised by a nutritionist or dietitian if possible.
+****
 
-Diets associated with better outcomes are low in refined carbohydrates, processed and refined foods and are high in vegetables, fruit, nuts, seeds, legumes and other whole foods. It is not necessary to be vegan or even vegetarian, although a diet that is predominantly plant food is best. This provides great nutrition, boosting our immune system and reducing inflammation. 
+**The industrialisation of foods** has resulted in food that  is high in refined carbohydrates and sugars, which along with constant eating lead to high insulin levels. Insulin and its buddy insulin like growth factor are drivers of cell proliferation. When insulin levels fall low cells are able to rest and repair meaning damaged or faulty cells are removed from our bodies, heading off cancer in the very early stages. What's more the industrialisation of food has seen highly refined fats with a long shelf life enter our diets in high levels. These fats tend to be inflammatory and damaging and are drivers of cancer. On the other hand naturally occurring fats found in fruit (such as olives and avocados) and fish are anti-inflammatory and protective and we need to incorporate more of these in our diets.
+
+****
+
+**Another vital part of diet is the microbiome_ _**(the bacteria in our gut) which I will discuss separately in another blog. Gut bacteria feed on fiber so again a diet rich in a diverse array of plant foods and the addition of fermented foods which contains lots of 'good' bacteria is important for a healthy gut and a healthy gut is associated with better outcomes. Sugar, sweeteners, alcohol and some medicines have a negative impact on our gut bacteria.
+
+****
 
 **Intermittent fasting** and fasting overnight have great potential to improve outcomes and reduce symptoms from chemotherapy. It certainly has the ability to stimulate the body into a catabolic state (resting rather than proliferating), this is when faulty cells such as cancer cells are either repaired or removed. Fasting for 12 or more hours overnight helps the body do this every night, it also helps you develop healthy gut bacteria, also associated with better cancer outcomes. Mouse studies have shown that cancers grow more slowly in these conditions and become more vulnerable to chemotherapy. Likewise when healthy cells are in a rest and repair state they are less vulnerable to damage by chemotherapy, cancer cells never rest so remain vulnerable. However we have no evidence yet  as to how this might impact on human survival in cancer and no protocols to follow. As I said before it important that patients with a normal or low BMI don’t lose weight with stage 4 cancer and adequate nutrition is vital.
 
-**_Another vital part of diet is the microbiome _**(the bacteria in our gut) which I will discuss separately in another blog. Again a diet rich in plant foods and fermented foods with lots of diversity is important for a healthy gut and a healthy gut is associated with better outcomes.
 
-Below is an excerpt from my booklet.
 
-**_What to eat and what to avoid. 
-_**
+There are studies now showing that organic foods have an association with lower cancer rates. As well as being free of pesticides they are often covered in naturally occurring bacteria and fungi that may contribute to a healthy microbiome.
 
-The three main food groups are carbohydrates, proteins and fats. These contain minerals, vitamins and phytonutrients which are often lost in processing and refining. Furthermore, refining and processing often produces foods that cause inflammation and high insulin levels—both risk factors for cancer. We want to eat more foods that are anti-inflammatory and less that are inflammatory.
+****
 
-**Carbohydrates:
-**
+**So in summary** my advice about food is to eat at meal times, wholefoods, mainly plants and organic where possible. Drink lots of water, avoid snacking and sugary or artificially sweetened drinks and cut out refined sugar. Eat around the table with family or friends whenever possible. Try to always be mindful of your eating (not eating while watching TV, looking at your phone or working!). Sometimes have a break from eating altogether and have a break from eating overnight of at least 12 hours. 
 
-_EAT MORE: _
-
-Carbohydrates from whole foods. Fruit and vegetables, legumes (beans, peas, lentils), whole grains (such as oats) and nuts and seeds.
-
-_CUT DOWN:_
-
-Refined carbohydrates such as flour which is found in breads, crackers, breakfast cereals, biscuits and cakes.
-
-_AVOID MOST OF THE TIME:_
-
-Anything with refined sugar added—especially sugary drinks.
-
-**Protein:
-**
-
-_EAT MORE:_
-
-Good quality proteins which can be found in: 	
-
-Fish (particularly those high in omega 3 such as wild salmon, sardines, herrings, trout). Ideally 2 x a week.
-
-Legumes.
-
-Free range eggs, every day is OK.
-
-Nuts and Seeds. Not too many as they are high in fat.
-
-_CUT DOWN: _
-
-Red Meat; try to eat organic, grass fed meat but limit to about 500g a week.
-
-Chicken; again, try to eat organic and free range.
-
-_AVOID MOST OF THE TIME: _
-
-Processed meats (salami, ham, bacon, sausages).
-
-Intensively farmed meats (grain fed beef and chicken) 
-
-**Fats:** 
-
-These can be inflammatory (which raises insulin levels) or anti-inflammatory. Our modern diets have far too many inflammatory fats and not enough anti-inflammatory fats. Refined and processed fats are especially bad for us.
-
-_EAT MORE_ Good Fats (anti-inflammatory and high in micronutrients):
-
-Fats found in whole foods such as avocados, nuts, seeds and fish
-
-Omega 3 fats. These are found in some fish including wild caught salmon, sardines, herrings, trout, and mackerel. Ground flaxseeds and flaxseed oil are non-fish sources. Consider a high-quality supplement of Omega 3 fish oil.
-
-Extra virgin olive oil is high in poly-phenols and anti-oxidants so is anti-inflammatory.
-
-Saturated fats in small amounts.  Non-animal sources include unrefined coconut oil.
-
-Keep good fats good by only cooking with fats that have a high smoke point such as avocado oil and coconut oil. Keeps fats away from heat and light in dark glass bottles. Discard after the best before date.
-
-_CUT DOWN_ on Inflammatory Fats: 
-
-Omega 6 fats can cause inflammation and we have too many in the Western diet. They are found in many grain and seed oils (such as sunflower oil, safflower oil, canola oil, and soybean oil), margarines, cage eggs, grain fed meat and refined foods. 
-
-Saturated fats from animals can be inflammatory. Only have a small amount of these fats.
-
-_AVOID _
-
-Hydrogenated fats and Trans fats. These are not found in nature but are manmade and found in processed foods such as biscuits, cakes, ready meals and margarines.
+****
 
 **Check out Jamie Oliver's website for great easy to follow recipes and the Prekure food guidelines in our resources section (I love these they are so liberating)**
